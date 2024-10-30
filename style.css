@@ -6,20 +6,7 @@
   margin: 25px;
   background-color: #141414;
 }
-#navbar {
-  margin: 25px;
-}
 
-#navbar topnav-centered a {
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-#navbar topnav-right {
-  float: right;
-}
 #title {
   color: #D6D5C9;
   text-align: center;
@@ -42,10 +29,8 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #141414;
-  border-color: #000000;
-  border-radius: 100px;
-  border-width: thick;
-  border-style: solid;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 li {
