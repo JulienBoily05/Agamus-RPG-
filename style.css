@@ -1,13 +1,6 @@
 #logo {
   width: 100px;
 }
-body {
-  background-image: url(Images/GrassTexture.png);
-  background-repeat: repeat;
-  background-position: center;
-  background-size: 10%;
-  position: relative;
-}
 ul {
   list-style-type: none;
   margin: 0;
