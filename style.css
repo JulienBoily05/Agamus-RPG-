@@ -1,0 +1,76 @@
+#container {
+  border-color: #000000;
+  border-radius: 25px;
+  border-width: thick;
+  border-style: solid;
+  margin: 25px;
+  background-color: #141414;
+}
+#navbar {
+  margin: 25px;
+}
+
+#navbar topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#navbar topnav-right {
+  float: right;
+}
+#title {
+  color: #D6D5C9;
+  text-align: center;
+}
+#logo {
+  width: 100px;
+}
+body {
+  background-image: url(Images/GrassTexture.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 10%;
+  position: relative;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #141414;
+  border-color: #000000;
+  border-radius: 100px;
+  border-width: thick;
+  border-style: solid;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #D6D5C9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #444444;
+}
+P {
+  display: block;
+  color: #D6D5C9;
+  width: 25%;
+  margin: auto;
+  padding: 25px;
+  border-color: #000000;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 500px;
+}
